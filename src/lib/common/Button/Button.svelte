@@ -71,4 +71,27 @@
         background-color: #4CAF4F;
         color: #F5F7FA;
     }
+    .LearnBtn{
+        width: 151px;
+        height: 52px;
+        padding: 14px 32px;
+        border-radius: 6px;
+        font-weight: 500;
+        border: none;
+        background-color: #4CAF4F;
+        color: #F5F7FA;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        transition: background-color 0.4s ease;
+    }
+    .LearnBtn:hover{
+        background-color: #F5F7FA;
+        color: #4CAF4F;
+        box-shadow: 0px 0px 8px #4CAF4F;
+    }
+    .LearnBtn:active{
+        background-color: #4CAF4F;
+        color: #F5F7FA;
+    }
 </style>

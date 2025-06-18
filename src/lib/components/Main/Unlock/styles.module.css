@@ -1,0 +1,12 @@
+.section{
+    width: 100%;
+    height: 433px;
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+}
+.image{
+    width: 441px;
+    height: 328px;
+    margin: 52px 0;
+}
