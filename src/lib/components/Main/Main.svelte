@@ -1,4 +1,5 @@
 <script>
+    import Achievements from './Achievements/Achievements.svelte';
     import Clients from './Clients/Clients.svelte';
     import Community from './Community/Community.svelte';
     import Hero from './HeroSection/Hero.svelte';
@@ -11,4 +12,5 @@
     <Clients/>
     <Community/>
     <Unlock/>
+    <Achievements/>
 </main>
