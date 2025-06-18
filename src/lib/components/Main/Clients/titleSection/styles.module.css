@@ -1,0 +1,26 @@
+.article{
+    width: 1110px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    width: 100%;
+    height: 44px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4D4D4D;
+}
+.aside{
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+}

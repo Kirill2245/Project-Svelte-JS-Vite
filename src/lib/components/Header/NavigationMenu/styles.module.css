@@ -1,0 +1,31 @@
+.nav {
+        display: flex;
+        align-items: center;
+        width: auto;
+        height: 24px;
+        margin-left: 11.52%;
+    }
+.ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.a {
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    height: 24px;
+    width: auto;
+    margin-bottom: 0;
+    line-height: 24px;
+    transition: color 0.1s ease;
+}
+.li {
+    height: 24px;
+}
+.a:hover {
+    text-shadow: 2px 8px 5px rgba(147, 241, 135, 0.719);
+}
+.a:active {
+    color: #4CAF4F;
+}

@@ -1,0 +1,17 @@
+.logo{
+    width: 154.49px;
+    height: 24px;
+    display: flex;
+}
+.image{
+    width: 35px;
+    height: 24px;
+}
+.title{
+    color: #263238;
+    margin-left: 8px;
+    margin-top: 0px;
+    margin-bottom: 1.67px;
+    width: 111px;
+    height: 20px;
+}
