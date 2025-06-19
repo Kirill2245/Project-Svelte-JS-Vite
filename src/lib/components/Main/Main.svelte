@@ -8,6 +8,7 @@
     import ImageUnlockOne from '@assets/rafiki.png'
     import ImageUnlockTwo from '@assets/pana.png'
     import Customers from './Customers/Customers.svelte';
+    import Marketing from './Marketing/Marketing.svelte';
 
     const UnlockOne = {
         class:"UnlockOne",
@@ -31,4 +32,5 @@
     <Achievements/>
     <Unlock UnlockProps = {UnlockTwo}/>
     <Customers/>
+    <Marketing/>
 </main>

@@ -1,0 +1,38 @@
+.Card {
+    width: 368px;
+    height: 366px;
+    position: relative; /* Это создает контекст позиционирования для дочерних элементов */
+}
+
+.Card img {
+    width: 368px;
+    height: 286px;
+    display: block; 
+    position: relative; 
+    z-index: 100;
+}
+
+.frame {
+    width: 317px;
+    height: 176px;
+    position: absolute; 
+    left:25.5px;
+    top:190px;
+    z-index: 101; 
+    background-color: #F5F7FA;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.frame h4{
+    text-align: center;
+    width: 285px;
+    height: 84px;
+    margin: 16px;
+    color: #717171;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+}
