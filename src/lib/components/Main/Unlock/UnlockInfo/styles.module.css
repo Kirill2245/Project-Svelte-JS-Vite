@@ -1,11 +1,9 @@
 .box{
     width: 661px;
-    height: 268px;
-    margin: 82.5px 0 82.5px 49px;
+    /* margin: 82.5px 0 82.5px 49px; */
 }
 .title{
     width: 601px;
-    height: 184px;
     margin-bottom: 32px;
 }
 .title h2{
@@ -19,7 +17,6 @@
 }
 .title p{
     width: 100%;
-    height: 80px;
     color: #717171;
     font-size: 14px;
     line-height: 20px;

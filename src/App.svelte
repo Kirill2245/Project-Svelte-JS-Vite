@@ -6,6 +6,5 @@
     <Header/>
     <Main/>
   </div>
-
 <style>
 </style>
