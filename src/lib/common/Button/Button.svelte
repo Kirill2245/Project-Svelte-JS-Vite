@@ -43,6 +43,7 @@
     .SignBtn:hover{
         background-color: #F5F7FA;
         color: #4CAF4F;
+        box-shadow: 0px 0px 8px #4CAF4F;
     }
     .SignBtn:active{
         background-color: #4CAF4F;
