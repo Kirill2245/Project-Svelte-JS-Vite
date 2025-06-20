@@ -28,4 +28,31 @@
     .readBtn:active{
         box-shadow: 0px 0px 8px #4caf4f9c;
     }
+    
+    .ButtonGet{
+        width: 178px;
+        height: 52px;
+        padding: 14px 32px;
+        border: none;
+        border-radius: 4px;
+        background-color: #4CAF4F;
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 0.4s ease;
+    }
+    .ButtonGet img{
+        width: 16px;
+        height: 16px;
+        /* margin: 4px 0px 4px 8px; */
+        margin-left: 8px;
+    }
+    .ButtonGet:hover{
+        background-color: #d1f5d4;
+        color: #4CAF4F;
+        box-shadow: 0px 0px 8px #4CAF4F;
+    }
 </style>
