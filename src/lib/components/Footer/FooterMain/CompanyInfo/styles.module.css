@@ -1,0 +1,43 @@
+.section{
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    margin-bottom: 74.33px;
+}
+.title{
+    width: 191px;
+    height: 29.67px;
+    display: flex;
+}
+.title h1{
+    width: 137.84px;
+    height: 25.54px;
+    color: white;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+.title img{
+    width: 43.27px;
+    height: 29.67px;
+    margin-right: 9.89px;
+}
+.text{
+    color: #F5F7FA;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 40px;
+}
+.text p{
+    margin: 0;
+}
+.imageBox{
+    height: 32px;
+    display: flex;
+    margin: 40px 174px 0 0;
+    gap: 16px;
+}

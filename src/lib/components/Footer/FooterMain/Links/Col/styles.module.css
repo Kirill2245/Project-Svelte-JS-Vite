@@ -1,0 +1,27 @@
+.section{
+    width: 160px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    color: white;
+    margin: 0;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.list{
+    width: 100%;
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    gap: 12px;
+    color: #F5F7FA;
+}
+.list p{
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+}
