@@ -20,6 +20,7 @@
                     (entries) => {
                         entries.forEach((entry) => {
                             if (entry.isIntersecting) {
+                                entry.target.classList.remove('animationclose')
                                 entry.target.classList.add('animation');
                                 setTimeout(() => {
                                     entry.target.classList.remove('animation')
