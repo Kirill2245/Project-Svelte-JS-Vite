@@ -12,7 +12,6 @@
     import { onMount } from 'svelte';
     
     const threshold = 0.35;
-
     onMount(() => {
         setTimeout(() => {
             const title = document.querySelectorAll('.line');
