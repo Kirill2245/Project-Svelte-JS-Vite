@@ -9,7 +9,6 @@
 .contain{
     width: 100%;
     height: auto;
-    /* height: 300px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,4 +41,12 @@
 .image.visible {
     opacity: 1;
     transform: translateX(0); 
+}
+@media(max-width:1150px){
+    .section{
+        height: auto;
+    }
+    .contain{
+        flex-direction: column-reverse;
+    }
 }

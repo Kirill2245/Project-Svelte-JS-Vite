@@ -49,9 +49,6 @@
         opacity: 1;
         transform: translateX(0);
     }
-    .MemberCard{
-        margin-right:127px;
-    }
     .MemberCard h3{
         width: 267px;
     }
@@ -59,9 +56,6 @@
         width: 251px;
         height: 60px;
     }
-    .NationalCard{
-        margin-right:127px;
-    }   
     .NationalCard h3{
         width: 255px;
     }
@@ -75,5 +69,15 @@
     .ClubsCard p{
         width: 251px;
         height: 60px;
+    }
+    @media(max-width:1370px){
+        .card{
+            transform: translateX(-200px);
+        }
+    }
+    @media(max-width:1160px){
+        .card{
+            transform: translateX(-100px);
+        }
     }
 </style>

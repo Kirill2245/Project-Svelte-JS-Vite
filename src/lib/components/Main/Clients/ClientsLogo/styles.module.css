@@ -1,7 +1,19 @@
 .figure{
     margin: 16px 0 0 0;
+    display: flex;
+    gap: 136px;
 }
 .figure img{
     width: 48px;
     height: 48px;
+}
+@media(max-width:1250px){
+    .figure{
+        gap: 120px;
+    }
+}
+@media(max-width:1150px){
+    .figure{
+        gap: 90px;
+    }
 }

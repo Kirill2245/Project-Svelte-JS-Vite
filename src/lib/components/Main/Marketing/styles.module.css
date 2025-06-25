@@ -42,3 +42,13 @@
     justify-content: center;
     gap:24px
 }
+@media(max-width:1150px){
+    .section{
+        height: auto;
+    }
+    .CardBox{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+}

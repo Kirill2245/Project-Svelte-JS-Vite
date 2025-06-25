@@ -8,9 +8,26 @@
     import Logo6 from '@assets/Logo6.svg';
     import Logo7 from '@assets/Logo7.svg';
     let arrLogo = [Logo1,Logo2,Logo3,Logo4,Logo5,Logo6,Logo7]
+    import { onMount, onDestroy } from 'svelte';
+    
+    let screenWidth;
+    
+    function handleResize() {
+        screenWidth = window.innerWidth;
+    }
+    
+    onMount(() => {
+        handleResize(); 
+        window.addEventListener('resize', handleResize);
+    });
+    
+    onDestroy(() => {
+        window.removeEventListener('resize', handleResize);
+    });
 </script>
 <figure class= {styles.figure}>
     {#each arrLogo as logo,index}
-        <img src={logo} alt="Logo" style:margin-left={index === 0 ? '0' : '136px'}>
+        <img src={logo} alt="Logo" 
+        >
     {/each}
 </figure>

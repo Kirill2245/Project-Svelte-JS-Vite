@@ -26,6 +26,11 @@
         background-color: #ebecee;
         color: #4CAF4F;
     }
+    @media(max-width:1250px){
+    .LoginBtn {
+        margin-left: 2.52%;
+    }
+}
     .SignBtn{
         width: 91px;
         height: 40px;
@@ -95,4 +100,5 @@
         background-color: #4CAF4F;
         color: #F5F7FA;
     }
+
 </style>

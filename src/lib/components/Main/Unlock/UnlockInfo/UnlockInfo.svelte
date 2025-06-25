@@ -92,4 +92,12 @@
         height: 308px;
         margin: 62.7px 0 62.7px 49px;
     }
+    @media(max-width:1150px){
+        #UnlockOne{
+            margin: 82.5px 0 ;
+        }
+        #UnlockTwo{
+            margin: 62.7px 0 ;
+        }
+    }
 </style>

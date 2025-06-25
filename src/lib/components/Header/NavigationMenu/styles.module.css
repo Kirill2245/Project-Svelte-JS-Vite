@@ -49,3 +49,8 @@
 .contain:hover .line {
     transform: scaleX(1); 
 }
+@media(max-width:1250px){
+    .nav {
+        margin-left: 2.52%;
+    }
+}

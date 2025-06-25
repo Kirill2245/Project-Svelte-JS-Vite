@@ -31,7 +31,7 @@
     .box{
         width: 657px;
         height: 276px;
-        margin-right: 104px;
+        margin-right: 7.222%;
         opacity: 0;
         transform: translateX(-1100px);
         transition: opacity 0.9s ease, transform 0.9s ease;
@@ -40,5 +40,10 @@
     .box.visible {
         opacity: 1;
         transform: translateX(0);
+    }
+    @media(max-width:1250px){
+    .box{
+        margin-right: 0;
+    }
     }
 </style>

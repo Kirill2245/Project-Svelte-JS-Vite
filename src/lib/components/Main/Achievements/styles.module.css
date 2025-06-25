@@ -35,3 +35,22 @@
     display: flex;
     flex-wrap: wrap;
 }
+@media(max-width:1250px){
+    .boxCard{
+        margin: 64px 0;
+    }
+}
+@media(max-width:1150px){
+    .section{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .article{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
