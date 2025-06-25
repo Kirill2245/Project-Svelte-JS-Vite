@@ -23,6 +23,7 @@
         img:clubs,
         aside:"Our membership management software provides full automation of membership renewals and payments"
     }
+    
 </script>
 <section class={styles.section}>
     <CommunityTitle/>

@@ -1,4 +1,4 @@
-#div{
+#card{
     width: 299px;
     height: 260px;
     margin-top: 10px;
@@ -7,12 +7,12 @@
     flex-direction: column;
     align-items: center;
 }
-#div img{
+#card img{
     width: 65px;
     height: 56px;
     margin-top: 24px;
 }
-#div h3{
+#card h3{
     height: 72px;
     text-align: center;
     font-size: 28px;
@@ -22,7 +22,7 @@
     margin-top: 16px;
     margin-bottom: 8px;
 }
-#div p{
+#card p{
     text-align: center;
     font-size: 14px;
     line-height: 20px;
