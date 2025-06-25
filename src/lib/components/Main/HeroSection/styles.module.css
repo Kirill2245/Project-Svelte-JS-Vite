@@ -35,4 +35,11 @@
     height: 407px;
     margin-top: 96px;
     margin-bottom: 55px;
+    opacity: 0;
+    transform: translateX(-1100px); 
+    transition: opacity 0.9s ease, transform 0.9s ease; 
+}
+.image.visible {
+    opacity: 1;
+    transform: translateX(0); 
 }

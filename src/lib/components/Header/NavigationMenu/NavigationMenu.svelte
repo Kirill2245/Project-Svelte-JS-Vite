@@ -14,13 +14,15 @@
     <ul class = {styles.ul}>
         {#each links as link, index}
             <li class= {styles.li}>
-                <a 
-                    href={link.path} 
-                    class = {styles.a}
-                    style:margin-left={index === 0 ? '0' : '50px'}
-                >
-                    {link.title}
-                </a>
+                <div class= {styles.contain} style:margin-left={index === 0 ? '0' : '50px'}>
+                    <a 
+                        href={link.path} 
+                        class = {styles.a}
+                    >
+                        {link.title}
+                    </a>
+                    <div class= {styles.line}></div>
+                </div>
             </li>
         {/each}
     </ul>
